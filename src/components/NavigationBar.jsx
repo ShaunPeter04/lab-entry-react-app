@@ -29,17 +29,12 @@ const NavigationBar = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-auto align-items-center gap-2">
                             <li className="nav-item ms-lg-2">
-                                <Link className="btn btn-primary px-4 py-2 rounded-pill fw-semibold shadow-sm" to="/add">
-                                    Home
-                                </Link>
-                            </li>
-                            <li className="nav-item ms-lg-2">
-                                <Link className="btn btn-primary px-4 py-2 rounded-pill fw-semibold shadow-sm" to="/add">
+                                <Link className="btn btn-primary px-4 py-2 rounded-pill fw-semibold shadow-sm" to="/">
                                     Add Entry
                                 </Link>
                             </li>
                             <li className="nav-item ms-lg-2">
-                                <Link className="btn btn-primary px-4 py-2 rounded-pill fw-semibold shadow-sm" to="/add">
+                                <Link className="btn btn-primary px-4 py-2 rounded-pill fw-semibold shadow-sm" to="/view">
                                     View Entries
                                 </Link>
                             </li>
