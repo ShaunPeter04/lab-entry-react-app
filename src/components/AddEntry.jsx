@@ -56,8 +56,6 @@ const AddEntry = () => {
                             </div>
 
                             <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-
-
                                 <label htmlFor="" className="form-label">Department</label>
                                 <select name="department" id="" className="form-control" onChange={inputHandler} value={input.department}>
                                     <option value="">----Select option----</option>
