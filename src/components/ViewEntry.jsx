@@ -44,7 +44,7 @@ const ViewEntry = () => {
                                 {fdata.map((value, index) => (
                                     <tr key={index}>
                                         <td>{value.name}</td>
-                                        <td>{value.dept}</td>
+                                        <td>{value.department}</td>
                                         <td>{value.sem}</td>
                                         <td>{value.course}</td>
                                         <td>{value.systemNumber}</td>
